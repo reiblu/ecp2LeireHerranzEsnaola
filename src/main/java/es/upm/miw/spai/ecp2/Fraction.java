@@ -66,7 +66,7 @@ public class Fraction {
     }
 
 	public Fraction suma(Fraction fraccion2) {
-	    Fraction c=new Fraction();
+	    Fraction c = new Fraction();
 	    c.numerator=this.numerator * fraccion2.denominator + fraccion2.numerator * this.denominator;
 	    c.denominator =this.denominator *fraccion2.denominator;
 	    return c;

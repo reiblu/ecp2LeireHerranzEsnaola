@@ -36,6 +36,7 @@ public class DecimalCollection {
     }
 
 	public int menor() {
+	    
 	    double minor = Double.POSITIVE_INFINITY;
         for (double item : this.collection) {
             if (item < minor)
