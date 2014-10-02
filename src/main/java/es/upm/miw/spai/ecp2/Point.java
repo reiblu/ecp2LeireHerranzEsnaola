@@ -44,7 +44,7 @@ public class Point {
 
     public boolean mismoPunto(Point point) {
         // TODO Auto-generated method stub
-        return false;
+    	return this.x==point.x && this.y==point.y;
     }
     
 }
