@@ -33,9 +33,15 @@ public class FractionTest {
     }
     
     @Test
+
+    public void testPropia() {
+        assertTrue(fraccion.propia());
+    }
+
     public void testSuma(){
     	Fraction fraccion2 = new Fraction(1,2);
     	assertEquals(new Fraction(5,2),fraccion.suma(fraccion2));
+
     }
 
 }

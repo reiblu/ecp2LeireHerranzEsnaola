@@ -60,9 +60,16 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
+
+    public boolean propia() {
+        // TODO Auto-generated method stub
+        return false;
+    }
+
 	public Fraction suma(Fraction fraccion2) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
     
 }
