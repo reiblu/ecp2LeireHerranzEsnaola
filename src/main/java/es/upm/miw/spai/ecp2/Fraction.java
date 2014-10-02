@@ -60,21 +60,22 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
-
     public boolean propia() {
         // TODO Auto-generated method stub
-        return numerator<denominator;
+        return numerator < denominator;
     }
 
-	public Fraction suma(Fraction fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-    public Fraction mayor(Fraction fraccionMayor) {
+    public Fraction suma(Fraction fraccion2) {
         // TODO Auto-generated method stub
         return null;
     }
 
-    
+    public Fraction mayor(Fraction fraccionMayor) {
+        if (this.numerator / this.denominator < fraccionMayor.decimal()) {
+            return fraccionMayor;
+        } else {
+            return new Fraction(this.numerator, this.denominator);
+        }
+    }
+
 }
