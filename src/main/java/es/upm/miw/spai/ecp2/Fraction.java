@@ -71,5 +71,10 @@ public class Fraction {
 		return null;
 	}
 
+    public Fraction mayor(Fraction fraccionMayor) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
     
 }

@@ -37,6 +37,12 @@ public class FractionTest {
     public void testPropia() {
         assertTrue(fraccion.propia());
     }
+    
+    @Test
+    public void testMayor(){
+        Fraction fraccionMayor = new Fraction(100,1);
+        assertEquals(fraccion.mayor(fraccionMayor).decimal(), fraccionMayor.decimal(), 0.5 );
+    }
 
     public void testSuma(){
     	Fraction fraccion2 = new Fraction(1,2);
