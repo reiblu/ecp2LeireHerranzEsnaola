@@ -2,7 +2,7 @@
 ## Ejercicio colaborativos entre alumnos: ECP2
 El objetivo es instruir al alumno en el desarrollo de software colaborativo.
 
-Cada alumno deberá realizar dos roles: `Arquitecto de software` y `Programador`.
+Cada alumno deberá realizar dos roles: `Arquitecto de software` y `Programador`..
 
 Sólo existe una norma básica: esta `prohibido hablar entre los integrantes`, sólo se podrán comunicar vía tickets.
 
