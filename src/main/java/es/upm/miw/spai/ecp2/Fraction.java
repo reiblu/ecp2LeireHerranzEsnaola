@@ -63,7 +63,7 @@ public class Fraction {
 
     public boolean propia() {
         // TODO Auto-generated method stub
-        return false;
+        return numerator<denominator;
     }
 
 	public Fraction suma(Fraction fraccion2) {
