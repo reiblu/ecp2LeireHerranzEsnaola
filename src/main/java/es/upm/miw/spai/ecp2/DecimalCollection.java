@@ -35,4 +35,9 @@ public class DecimalCollection {
         return higher;
     }
 
+	public int menor() {
+		// TODO Auto-generated method stub
+		return (Integer) null;
+	}
+
 }
