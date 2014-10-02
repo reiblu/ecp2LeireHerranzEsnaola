@@ -36,8 +36,12 @@ public class DecimalCollection {
     }
 
 	public int menor() {
-		// TODO Auto-generated method stub
-		return (Integer) null;
+	    double minor = Double.POSITIVE_INFINITY;
+        for (double item : this.collection) {
+            if (item < minor)
+                minor = item;
+        }
+        return (int)minor;
 	}
 
 }

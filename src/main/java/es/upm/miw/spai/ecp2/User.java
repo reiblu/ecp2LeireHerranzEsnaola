@@ -38,8 +38,7 @@ public class User {
         return this.name.substring(0, 1) + ".";
     }
 
-    public Object getNameNumber() {
-        // TODO Auto-generated method stub
-        return null;
+    public String getNameNumber() {
+        return this.name + " " + this.number;
     }
 }

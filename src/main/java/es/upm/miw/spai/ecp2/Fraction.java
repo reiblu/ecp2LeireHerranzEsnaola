@@ -60,10 +60,9 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
-
     public boolean propia() {
         // TODO Auto-generated method stub
-        return false;
+        return numerator < denominator;
     }
 
 	public Fraction suma(Fraction fraccion2) {
@@ -74,9 +73,11 @@ public class Fraction {
 	}
 
     public Fraction mayor(Fraction fraccionMayor) {
-        // TODO Auto-generated method stub
-        return null;
+        if (this.numerator / this.denominator < fraccionMayor.decimal()) {
+            return fraccionMayor;
+        } else {
+            return new Fraction(this.numerator, this.denominator);
+        }
     }
 
-    
 }
