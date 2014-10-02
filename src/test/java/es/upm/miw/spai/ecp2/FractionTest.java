@@ -31,5 +31,10 @@ public class FractionTest {
     public void testDecimal() {
         assertEquals(2, fraccion.decimal(), 10e-1);
     }
+    
+    @Test
+    public void testPropia() {
+        assertTrue(fraccion.propia());
+    }
 
 }
