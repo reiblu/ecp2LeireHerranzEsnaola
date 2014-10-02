@@ -31,5 +31,11 @@ public class FractionTest {
     public void testDecimal() {
         assertEquals(2, fraccion.decimal(), 10e-1);
     }
+    
+    @Test
+    public void testSuma(){
+    	Fraction fraccion2 = new Fraction(1,2);
+    	assertEquals(new Fraction(5,2),fraccion.suma(fraccion2));
+    }
 
 }
