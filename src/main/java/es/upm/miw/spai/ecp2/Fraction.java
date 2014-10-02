@@ -67,8 +67,10 @@ public class Fraction {
     }
 
 	public Fraction suma(Fraction fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
+	    Fraction c=new Fraction();
+	    c.numerator=this.numerator * fraccion2.denominator + fraccion2.numerator * this.denominator;
+	    c.denominator =this.denominator *fraccion2.denominator;
+	    return c;
 	}
 
     public Fraction mayor(Fraction fraccionMayor) {
