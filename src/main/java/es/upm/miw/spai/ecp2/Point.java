@@ -41,5 +41,10 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+    public boolean mismoPunto(Point point) {
+        // TODO Auto-generated method stub
+        return false;
+    }
     
 }
